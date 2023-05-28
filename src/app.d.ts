@@ -1,6 +1,6 @@
 type Shape = {
   id: string
-  type: string
+  type: 'ellipse' | 'rectangle'
   color: string
   rotation: number
   x: number
@@ -8,6 +8,8 @@ type Shape = {
   width: number
   height: number
 }
+
+type ShapeSVG = Omit<Shape, 'id' | 'type'>
 
 type Project = {
   id: string
