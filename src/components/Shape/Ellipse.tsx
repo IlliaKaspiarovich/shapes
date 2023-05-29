@@ -1,6 +1,6 @@
 import { FC } from 'react'
 
-export const Circle: FC<ShapeSVG> = ({ color, x, y, width, height, rotation }) => (
+export const Ellipse: FC<ShapeSVG> = ({ color, x, y, width, height, rotation }) => (
   <ellipse
     cx={width/2}
     cy={height/2}

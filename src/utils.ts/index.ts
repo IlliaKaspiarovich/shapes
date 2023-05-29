@@ -3,7 +3,7 @@ interface BoundingBox {
   height: number
 }
 
-export function calculateBoundingBox(width: number, height: number, angle: number): BoundingBox {
+export const calculateBoundingBox = (width: number, height: number, angle: number): BoundingBox => {
   const angleRad = (Math.PI / 180) * angle
 
   const x1 = -width / 2

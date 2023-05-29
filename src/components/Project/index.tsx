@@ -2,7 +2,7 @@ import { FC } from 'react'
 import { useSelector } from 'react-redux'
 import type { RootState } from 'store'
 import { ProjectContainer } from 'components/ProjectContainer'
-import { Shape } from '../Shape'
+import { Shape } from 'components/Shape'
 import styles from './Project.module.css'
 
 export const Project: FC = () => {

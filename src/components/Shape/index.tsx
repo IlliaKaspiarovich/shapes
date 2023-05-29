@@ -1,10 +1,10 @@
 import { FC } from 'react'
 import { calculateBoundingBox } from 'utils.ts' 
-import { Circle } from './Circle'
+import { Ellipse } from './Ellipse'
 import { Rectangle } from './Rectangle'
 
 const shapesMap: { [key in Shape['type']]: FC<ShapeSVG> } = {
-  ellipse: Circle,
+  ellipse: Ellipse,
   rectangle: Rectangle
 }
 
